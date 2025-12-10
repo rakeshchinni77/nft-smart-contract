@@ -1,0 +1,18 @@
+{
+  "name": "nft-smart-contract",
+  "version": "1.0.0",
+  "description": "ERC-721 compatible NFT smart contract with comprehensive test suite",
+  "main": "contracts/NftCollection.sol",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean"
+  },
+  "keywords": ["nft", "erc721", "smart-contract", "solidity"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
